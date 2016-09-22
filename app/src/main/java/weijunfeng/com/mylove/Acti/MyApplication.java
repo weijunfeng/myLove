@@ -16,5 +16,6 @@ public class MyApplication extends Application {
         super.onCreate();
         application = this;
         mainHandler = new Handler();
+        Crash.getInstance().init(this);
     }
 }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weijunfeng.com.mylove.MaterialLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ml="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#f0f0f0"
+    android:gravity="center"
+    ml:alpha="200"
+    ml:mycolor="#FFD306"
+    ml:duration="200"
+    ml:scale="1.2">
+    <!-- some full screen pullable view that will be the offsetable content -->
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Hello World!" />
+    <!--</ScrollView>-->
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:button="@null"
+        android:text="点击" />
+</weijunfeng.com.mylove.MaterialLayout>
